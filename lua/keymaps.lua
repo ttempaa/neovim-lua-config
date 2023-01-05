@@ -27,3 +27,5 @@ Utils.keymap('t', '<Esc>', '<C-\\><C-n>');
 Utils.keymap('n', '<C-t>', ':ToggleTerm<CR>');
 Utils.keymap('i', '<C-t>', ':ToggleTerm<CR>');
 
+-- Go to definition
+Utils.keymap('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>');
