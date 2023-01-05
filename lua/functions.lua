@@ -2,7 +2,7 @@ local Utils = require('utils');
 
 -- Auto pretty file on save
 Utils.command([[
-	autocmd BufWritePre *.ts,*.js,*.css,*.json,*.md,*.vue,*.html PrettierAsync
+	autocmd BufWritePre *.ts,*.js,*.tsx,*.jsx,*.css,*.json,*.md,*.vue,*.html PrettierAsync
 ]]);
 
 -- Auto show diagnostic on hover
